@@ -1,0 +1,20 @@
+
+#Print "forward" if x is equal to 1.
+# Print "backward" if x is equal to 2.
+# Print "left" if x is equal to 3.
+# Print "right" if x is equal to 4.
+
+
+x = int(input("Input x value: \n"))
+
+if x == 1:
+    print(" Forward")
+elif x == 2:
+    print(" Backward")
+elif x == 3:
+    print("left")
+elif x == 4:
+    print("right")
+else:
+    print(" Must be 1,2,3,4")
+    
